@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The World Today — Thursday 19 November 2026</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1024px; height:1024px; }
+  body {
+    background:#f8f4e9;
+    font-family:"Noto Sans", Arial, Helvetica, sans-serif;
+    color:#1c1a16;
+    padding:9px 11px 8px;
+    overflow:hidden;
+  }
+  .masthead {
+    border-top:5px solid #1c1a16;
+    border-bottom:2px solid #1c1a16;
+    padding:4px 2px 5px;
+    text-align:center;
+    position:relative;
+  }
+  .masthead .kicker {
+    font-size:10px; letter-spacing:3.5px; text-transform:uppercase;
+    color:#8a2f23; font-weight:700;
+  }
+  .masthead h1 {
+    font-family:"Noto Serif", Georgia, serif;
+    font-size:40px; line-height:1; letter-spacing:1px; margin:1px 0 2px;
+  }
+  .masthead .dateline {
+    font-family:"Noto Serif", Georgia, serif;
+    font-size:17px; font-weight:700; letter-spacing:0.5px;
+  }
+  .masthead .sub {
+    font-size:10.5px; color:#5a554b; margin-top:2px; letter-spacing:0.3px;
+  }
+  .masthead .price {
+    position:absolute; top:8px; right:4px; font-size:10px; color:#5a554b;
+    text-align:right; line-height:1.5;
+  }
+  .masthead .vol {
+    position:absolute; top:8px; left:4px; font-size:10px; color:#5a554b;
+    text-align:left; line-height:1.5;
+  }
+  .leads { display:flex; gap:12px; margin-top:5px; }
+  .lead { flex:1; border-right:1px solid #c9c2b2; padding-right:11px; }
+  .lead:last-child { border-right:none; padding-right:0; }
+  .lead .art { width:100%; height:63px; display:block; border:1px solid #b9b2a2; }
+  .lead .tag {
+    font-size:9.5px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase;
+    margin-top:4px;
+  }
+  .lead h2 {
+    font-family:"Noto Serif", Georgia, serif;
+    font-size:16.5px; line-height:1.15; margin:2px 0 3px;
+  }
+  .lead p { font-size:10.5px; line-height:1.33; color:#2e2b26; }
+  .lead p b { color:#1c1a16; }
+  .sec-head {
+    display:flex; align-items:baseline; gap:8px;
+    border-top:2px solid #1c1a16; border-bottom:1px solid #1c1a16;
+    margin-top:5px; padding:2px 2px;
+  }
+  .sec-head h3 {
+    font-family:"Noto Serif", Georgia, serif; font-size:14px; letter-spacing:0.5px;
+  }
+  .sec-head span { font-size:10px; color:#5a554b; }
+  .grid {
+    display:grid; grid-template-columns:1fr 1fr 1fr; gap:0 14px; margin-top:2px;
+  }
+  .cell {
+    border-bottom:1px solid #d8d2c2; padding:2px 0; min-height:56px;
+  }
+  .cell .row1 { display:flex; gap:6px; align-items:flex-start; }
+  .badge {
+    flex:0 0 auto; background:#8a2f23; color:#fff; font-weight:700;
+    font-size:10px; width:17px; height:17px; line-height:17px; text-align:center;
+    margin-top:1px;
+  }
+  .cell h4 { font-size:11.5px; line-height:1.22; }
+  .cell p { font-size:10px; line-height:1.24; color:#3a372f; margin-top:2px; }
+  .cell .reg {
+    font-size:8.5px; font-weight:700; letter-spacing:1px; text-transform:uppercase;
+  }
+  .map-band {
+    display:flex; gap:12px; margin-top:5px;
+    border-top:2px solid #1c1a16; border-bottom:1px solid #1c1a16;
+    padding:4px 2px;
+  }
+  .map-wrap { flex:0 0 500px; }
+  .map-wrap svg { width:500px; height:140px; display:block; }
+  .map-key { flex:1; }
+  .map-key h3 {
+    font-family:"Noto Serif", Georgia, serif; font-size:13.5px; margin-bottom:2px;
+  }
+  .map-key .cols { display:flex; gap:18px; }
+  .map-key ul { list-style:none; }
+  .map-key li { font-size:10.5px; line-height:1.38; color:#2e2b26; }
+  .map-key li b { color:#8a2f23; }
+  .briefs { margin-top:2px; }
+  .brief-cols { display:flex; gap:22px; margin-top:2px; }
+  .brief-cols ul { list-style:none; flex:1; }
+  .brief-cols li {
+    font-size:10px; line-height:1.25; padding:1.5px 0;
+    border-bottom:1px dotted #cfc8b6; color:#2e2b26;
+  }
+  .brief-cols li b { color:#8a2f23; margin-right:4px; }
+  .footer {
+    margin-top:3px; padding-top:3px; border-top:2px solid #1c1a16;
+    font-size:9px; color:#5a554b; line-height:1.45; text-align:center;
+  }
+  .footer b { color:#1c1a16; }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="vol">Vol. I &middot; No. 323<br>Price: free</div>
+  <div class="kicker">One day &middot; One front page &middot; The whole world</div>
+  <h1>THE WORLD TODAY</h1>
+  <div class="dateline">THURSDAY 19 NOVEMBER 2026</div>
+  <div class="sub">34 verified stories &middot; Six continents &middot; Diplomacy, war, courts, climate, markets, health and sport</div>
+  <div class="price">Edition of record<br>for 19 November 2026</div>
+</div>
+
+<div class="leads">
+  <div class="lead">
+    <svg class="art" viewBox="0 0 300 80" preserveAspectRatio="none" aria-label="Shenzhen summit">
+      <rect width="300" height="80" fill="#2e4a6b"/>
+      <rect x="0" y="0" width="300" height="34" fill="#3d5f86"/>
+      <rect x="18" y="28" width="22" height="34" fill="#1d2f45"/>
+      <rect x="46" y="18" width="18" height="44" fill="#1d2f45"/>
+      <rect x="70" y="32" width="26" height="30" fill="#24394f"/>
+      <rect x="102" y="12" width="16" height="50" fill="#1d2f45"/>
+      <rect x="102" y="6" width="2" height="8" fill="#d8b13a"/>
+      <rect x="124" y="26" width="24" height="36" fill="#24394f"/>
+      <rect x="238" y="22" width="20" height="40" fill="#1d2f45"/>
+      <rect x="264" y="30" width="22" height="32" fill="#24394f"/>
+      <rect x="0" y="62" width="300" height="18" fill="#16283c"/>
+      <g font-family="Arial" font-size="7" fill="#f8f4e9" font-weight="bold">
+        <text x="18" y="74">SHENZHEN</text>
+      </g>
+      <g>
+        <rect x="162" y="14" width="34" height="20" fill="#b22234"/>
+        <rect x="162" y="14" width="34" height="3" fill="#fff"/><rect x="162" y="20" width="34" height="3" fill="#fff"/><rect x="162" y="26" width="34" height="3" fill="#fff"/>
+        <rect x="162" y="14" width="14" height="11" fill="#3c3b6e"/>
+        <rect x="200" y="14" width="34" height="20" fill="#de2910"/>
+        <polygon points="208,17 209.5,21 213.5,21 210.3,23.5 211.5,27.5 208,25 204.5,27.5 205.7,23.5 202.5,21 206.5,21" fill="#ffde00"/>
+        <rect x="238" y="14" width="34" height="20" fill="#fff"/>
+        <rect x="238" y="20.6" width="34" height="6.8" fill="#0039a6"/><rect x="238" y="27.4" width="34" height="6.6" fill="#d52b1e"/>
+        <text x="162" y="46" font-family="Arial" font-size="8" font-weight="bold" fill="#f8f4e9">USA &middot; CHINA &middot; RUSSIA</text>
+      </g>
+      <text x="162" y="58" font-family="Arial" font-size="8" font-weight="bold" fill="#d8b13a">FIRST-EVER TRILATERAL</text>
+    </svg>
+    <div class="tag" style="color:#8a2f23">1 &middot; Diplomacy &middot; Shenzhen</div>
+    <h2>Trump, Xi and Putin hold first-ever three-way summit</h2>
+    <p><b>SHENZHEN</b> &mdash; The leaders of the United States, China and Russia meet face to face for the first time as a trio on the APEC sidelines. Nuclear arms control, Ukraine and Iran top the agenda; a joint statement promises UN and ICC reform, but <b>no major agreement is announced</b>. Ukraine and its European allies are not at the table.</p>
+  </div>
+  <div class="lead">
+    <svg class="art" viewBox="0 0 300 80" preserveAspectRatio="none" aria-label="ICJ ruling">
+      <rect width="300" height="80" fill="#e8e0cc"/>
+      <polygon points="150,8 36,34 264,34" fill="#8a2f23"/>
+      <polygon points="150,14 62,32 238,32" fill="#a8432f"/>
+      <rect x="48" y="34" width="10" height="30" fill="#5a554b"/>
+      <rect x="86" y="34" width="10" height="30" fill="#5a554b"/>
+      <rect x="124" y="34" width="10" height="30" fill="#5a554b"/>
+      <rect x="166" y="34" width="10" height="30" fill="#5a554b"/>
+      <rect x="204" y="34" width="10" height="30" fill="#5a554b"/>
+      <rect x="242" y="34" width="10" height="30" fill="#5a554b"/>
+      <rect x="36" y="64" width="228" height="5" fill="#1c1a16"/>
+      <rect x="28" y="69" width="244" height="4" fill="#1c1a16"/>
+      <text x="150" y="30" text-anchor="middle" font-family="Georgia" font-size="11" font-weight="bold" fill="#f8f4e9">I C J</text>
+      <rect x="112" y="42" width="76" height="16" fill="#1c1a16"/>
+      <text x="150" y="54" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f8f4e9">VERDICT 9&ndash;6</text>
+    </svg>
+    <div class="tag" style="color:#2e5f8a">2 &middot; Justice &middot; The Hague</div>
+    <h2>World court rules Myanmar committed genocide against Rohingya</h2>
+    <p><b>THE HAGUE</b> &mdash; The International Court of Justice rules <b>9&ndash;6</b> that Myanmar committed genocide against the Rohingya in its 2017 military campaign &mdash; the first time the court has found a state guilty of genocide. Amnesty International calls the verdict &ldquo;historic&rdquo;. Rohingya refugees watch the ruling from Cox&rsquo;s Bazar in Bangladesh.</p>
+  </div>
+  <div class="lead">
+    <svg class="art" viewBox="0 0 300 80" preserveAspectRatio="none" aria-label="Kerch Bridge strike">
+      <rect width="300" height="80" fill="#33414f"/>
+      <rect x="0" y="56" width="300" height="24" fill="#1f3a52"/>
+      <path d="M0 58 Q 40 52 80 58 T 160 58 T 240 58 T 300 58" stroke="#4a7a9e" stroke-width="2" fill="none"/>
+      <path d="M0 66 Q 40 60 80 66 T 160 66 T 240 66 T 300 66" stroke="#4a7a9e" stroke-width="1.5" fill="none"/>
+      <rect x="0" y="44" width="112" height="6" fill="#c8b896"/>
+      <rect x="188" y="44" width="112" height="6" fill="#c8b896"/>
+      <rect x="20" y="50" width="8" height="12" fill="#8a7d5f"/>
+      <rect x="80" y="50" width="8" height="12" fill="#8a7d5f"/>
+      <rect x="212" y="50" width="8" height="12" fill="#8a7d5f"/>
+      <rect x="272" y="50" width="8" height="12" fill="#8a7d5f"/>
+      <path d="M112 50 L 128 62 L 140 56 L 152 64 L 166 54 L 188 50 L 188 44 L 112 44 Z" fill="#6b5f45"/>
+      <polygon points="150,10 154,20 164,18 157,26 165,32 155,33 156,44 150,37 144,44 145,33 135,32 143,26 136,18 146,20" fill="#e8a13a"/>
+      <circle cx="150" cy="28" r="10" fill="#e8a13a" opacity="0.55"/>
+      <circle cx="150" cy="28" r="16" fill="#e8a13a" opacity="0.25"/>
+      <text x="12" y="16" font-family="Arial" font-size="8" font-weight="bold" fill="#f8f4e9">KERCH BRIDGE</text>
+      <text x="12" y="27" font-family="Arial" font-size="8" font-weight="bold" fill="#e8a13a">THIRD STRIKE IN A WEEK</text>
+      <text x="288" y="74" text-anchor="end" font-family="Arial" font-size="7.5" fill="#b9d2e2">RAIL TRAFFIC HALTED</text>
+    </svg>
+    <div class="tag" style="color:#8a2f23">3 &middot; War &middot; Crimea</div>
+    <h2>Ukraine strikes Kerch Bridge a third time; Putin rules out ceasefire</h2>
+    <p><b>KERCH</b> &mdash; Ukrainian Neptune missiles hit the railway section of the Crimean Bridge; an arch and road span collapse into the water and train traffic halts. Putin, in Shenzhen, rules out ceasefire talks and vows retaliation. Occupation authorities announce <b>free ferries between Kerch and Taman from Friday</b>.</p>
+  </div>
+</div>
+
+<div class="sec-head"><h3>THE DAY IN BRIEF &mdash; 15 STORIES</h3><span>Politics &middot; Conflict &middot; Economy &middot; Climate &middot; Health &middot; Sport</span></div>
+<div class="grid">
+  <div class="cell"><div class="row1"><span class="badge">4</span><h4>Houthi missile damages Riyadh&rsquo;s tallest tower</h4></div><p><span class="reg" style="color:#8a2f23">Middle East</span> &mdash; Ansarallah missile hits the Public Investment Fund headquarters in the capital&rsquo;s tallest skyscraper; damage reported Thursday.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">5</span><h4>IEA: Iran war is largest oil disruption ever</h4></div><p><span class="reg" style="color:#2e5f8a">Energy</span> &mdash; Cumulative losses of 2.8bn barrels of oil and 60bn cubic metres of gas &mdash; the biggest disruption to trade on record.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">6</span><h4>Israel ends central Gaza ground operation</h4></div><p><span class="reg" style="color:#8a2f23">Gaza</span> &mdash; Tanks withdraw and Salah al-Din Road reopens; a strike on Nasser Hospital killed six, including a surgeon, officials say.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">7</span><h4>COP31 draft drops all fossil-fuel language</h4></div><p><span class="reg" style="color:#3d7a4a">Climate</span> &mdash; Thursday text strips out every mention of ending fossil fuels, drops the $120bn finance target, and is the first to admit 1.5&deg;C will likely be exceeded.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">8</span><h4>Anthropic debuts on Nasdaq at $111.50</h4></div><p><span class="reg" style="color:#2e5f8a">Tech</span> &mdash; Shares jump 34% on the $83 IPO price; the $81.3bn listing is the biggest initial public offering ever.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">9</span><h4>UK pledges &pound;260m Ukraine aid in Berlin</h4></div><p><span class="reg" style="color:#2e5f8a">Europe</span> &mdash; Package includes 1,000+ long-range strike drones, announced at a Coalition of the Willing meeting.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">10</span><h4>Bangladesh shutdown turns deadly</h4></div><p><span class="reg" style="color:#8a2f23">Asia</span> &mdash; Awami League lockdown paralyses Dhaka; two ruling-party members killed, ex-leader Yunus&rsquo;s family home set ablaze.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">11</span><h4>WHO keeps Ebola a global emergency</h4></div><p><span class="reg" style="color:#3d7a4a">Health</span> &mdash; DR Congo outbreak passes 11,300 cases and 5,500 deaths; 400&ndash;500 new infections a week; two vaccines enter phase-2 trials.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">12</span><h4>North Korea expanded Yongbyon site, IAEA says</h4></div><p><span class="reg" style="color:#8a2f23">Security</span> &mdash; Extension to the uranium enrichment plant externally completed by late October; reactor operations continue.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">13</span><h4>Iran hits Kuwait and Bahrain after Qeshm raid</h4></div><p><span class="reg" style="color:#8a2f23">Gulf</span> &mdash; An ADNOC tanker is struck off Oman; Iran says five tankers hit naval mines in the Strait of Hormuz.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">14</span><h4>Lula blasts markets over cabinet &lsquo;speculation&rsquo;</h4></div><p><span class="reg" style="color:#2e5f8a">Latin America</span> &mdash; Brazil&rsquo;s president attacks traders profiting from rumours as assets sell off; Senate passes a fiscal package.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">15</span><h4>98 drones in Russia&rsquo;s overnight attack</h4></div><p><span class="reg" style="color:#8a2f23">Ukraine</span> &mdash; Oniks missiles and 98 strike drones hit overnight; 211 combat clashes in a day, heaviest around Pokrovsk.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">16</span><h4>U17 World Cup opens in Qatar</h4></div><p><span class="reg" style="color:#3d7a4a">Sport</span> &mdash; Hosts Qatar beat Panama 2&ndash;0 in the opener; France see off Haiti 3&ndash;1, Ecuador edge New Caledonia 1&ndash;0.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">17</span><h4>Takaichi meets Putin, first talks in seven years</h4></div><p><span class="reg" style="color:#2e5f8a">Asia</span> &mdash; Japan&rsquo;s PM holds leader-level talks with Putin in Shenzhen and exchanges handshakes with Xi at APEC.</p></div>
+  <div class="cell"><div class="row1"><span class="badge">18</span><h4>Colby: deep strikes &lsquo;not effective&rsquo;; allies balk</h4></div><p><span class="reg" style="color:#2e5f8a">NATO</span> &mdash; U.S. defence policy chief says Ukraine&rsquo;s deep strikes have not shortened the war; Germany and Britain reject the view.</p></div>
+</div>
+
+<div class="map-band">
+  <div class="map-wrap">
+    <svg viewBox="-180 -60 360 150" preserveAspectRatio="xMidYMid meet">
+      <rect x="-180" y="-60" width="360" height="150" fill="#dbe7f0"/>
+      <g transform="translate(0,30) scale(1,-1)" fill="#e8e0c8" stroke="#9a9178" stroke-width="0.7">
+        <polygon points="-168,66 -155,71 -135,69 -115,68 -95,69 -85,66 -76,62 -68,58 -60,52 -64,48 -70,43 -75,39 -76,35 -80,32 -81,25 -84,30 -87,30 -90,29 -94,29 -97,26 -97,22 -94,18 -90,21 -87,15 -83,9 -79,9 -83,12 -87,14 -90,14 -94,16 -97,16 -105,20 -110,23 -114,29 -117,33 -122,37 -124,42 -124,48 -127,50 -132,54 -135,57 -140,60 -150,61 -158,58 -162,60"/>
+        <polygon points="-58,64 -45,60 -40,64 -42,70 -50,76 -58,76 -62,70"/>
+        <polygon points="-79,9 -75,11 -72,12 -64,10 -60,8 -52,5 -50,0 -44,-3 -38,-5 -35,-8 -38,-15 -40,-21 -48,-28 -52,-33 -58,-38 -62,-41 -65,-45 -68,-50 -68,-54 -71,-54 -73,-50 -73,-44 -73,-37 -71,-30 -70,-23 -70,-18 -75,-15 -79,-8 -81,-4 -80,1"/>
+        <polygon points="-17,15 -16,20 -10,31 -6,35 0,36 10,37 11,34 20,32 30,31 32,31 35,28 39,21 43,12 48,11 51,10 46,5 42,0 40,-5 39,-10 36,-18 33,-26 28,-33 20,-35 16,-29 14,-22 12,-18 13,-12 9,-1 9,4 4,6 -8,4 -13,8"/>
+        <polygon points="-10,36 -9,43 -2,48 0,50 3,53 5,58 8,58 10,60 5,62 12,65 18,69 25,71 32,70 40,68 45,68 55,69 65,69 75,72 85,73 95,76 105,77 115,73 125,72 135,71 145,72 155,70 162,66 170,66 178,65 178,62 170,60 162,60 158,56 155,52 150,50 142,50 140,45 138,40 135,35 130,33 127,35 122,38 120,32 118,28 114,23 110,21 108,18 105,10 103,8 100,7 98,10 95,16 92,21 89,22 86,20 82,16 80,13 77,8 75,12 73,20 70,23 66,25 61,25 57,27 54,27 51,28 48,30 44,29 40,31 36,36 33,36 30,36 27,37 23,36 19,40 16,40 12,44 10,44 7,44 3,43 0,38 -2,37 -6,36"/>
+        <polygon points="-5,50 -3,53 -5,56 -3,58 -1,57 1,53 1,51"/>
+        <polygon points="130,31 133,34 137,35 140,36 141,39 142,42 145,44 142,44 140,40 138,37 134,34 131,33"/>
+        <polygon points="95,5 100,0 105,-3 110,-5 114,-8 119,-9 122,-10 126,-9 130,-8 135,-8 140,-8 141,-3 136,-2 130,-1 125,0 120,1 115,2 110,3 105,4 100,5"/>
+        <polygon points="131,-1 136,-2 141,-3 146,-6 150,-9 147,-10 142,-8 137,-7 132,-4"/>
+        <polygon points="114,-22 114,-28 118,-32 124,-33 129,-32 132,-32 135,-35 138,-35 140,-38 145,-38 150,-37 153,-32 153,-27 150,-23 146,-19 142,-15 142,-11 140,-17 136,-15 135,-12 132,-11 130,-13 126,-14 122,-17 118,-20"/>
+        <polygon points="167,-45 170,-43 173,-40 176,-38 178,-38 175,-41 172,-43 169,-46"/>
+        <polygon points="44,-12 47,-15 47,-20 45,-25 44,-20 43,-15"/>
+        <g fill="#8a1c1c" stroke="#fff" stroke-width="0.8">
+          <circle cx="114" cy="22" r="3.2"/><circle cx="4" cy="52" r="3.2"/><circle cx="36" cy="45" r="3.2"/>
+          <circle cx="47" cy="25" r="3.2"/><circle cx="56" cy="27" r="3.2"/><circle cx="34" cy="31" r="3.2"/>
+          <circle cx="31" cy="37" r="3.2"/><circle cx="-74" cy="41" r="3.2"/><circle cx="13" cy="52" r="3.2"/>
+          <circle cx="90" cy="24" r="3.2"/><circle cx="23" cy="-2" r="3.2"/><circle cx="126" cy="39" r="3.2"/>
+          <circle cx="-48" cy="-16" r="3.2"/><circle cx="31" cy="46" r="3.2"/><circle cx="140" cy="36" r="3.2"/>
+          <circle cx="-67" cy="10" r="3.2"/><circle cx="-2" cy="12" r="3.2"/><circle cx="153" cy="-27" r="3.2"/>
+        </g>
+      </g>
+      <g font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8a1c1c" paint-order="stroke" stroke="#f8f4e9" stroke-width="2">
+        <text x="117.5" y="10.5">1</text><text x="0.5" y="-19.5" text-anchor="end">2</text><text x="39.5" y="-12.5">3</text>
+        <text x="50.5" y="7.5">4</text><text x="61" y="3.5">5</text><text x="37.5" y="1.5">6</text>
+        <text x="27" y="-4.5" text-anchor="end">7</text><text x="-70.5" y="-8.5">8</text><text x="16.5" y="-19.5">9</text>
+        <text x="93.5" y="8.5">10</text><text x="26.5" y="34.5">11</text><text x="129.5" y="-6.5">12</text>
+        <text x="-44.5" y="48.5">14</text><text x="28" y="-13.5" text-anchor="end">15</text><text x="146" y="-3.5">17</text>
+        <text x="-63.5" y="22.5">21</text><text x="1.5" y="20.5">24</text><text x="156.5" y="59.5">29</text>
+      </g>
+    </svg>
+  </div>
+  <div class="map-key">
+    <h3>Where the news happened &mdash; 18 places</h3>
+    <div class="cols">
+      <ul>
+        <li><b>1</b> Shenzhen, China</li>
+        <li><b>2</b> The Hague, Netherlands</li>
+        <li><b>3</b> Kerch Bridge, Crimea</li>
+        <li><b>4</b> Riyadh, Saudi Arabia</li>
+        <li><b>5</b> Strait of Hormuz</li>
+        <li><b>6</b> Gaza</li>
+        <li><b>7</b> Antalya, T&uuml;rkiye (COP31)</li>
+        <li><b>8</b> New York, USA</li>
+        <li><b>9</b> Berlin, Germany</li>
+      </ul>
+      <ul>
+        <li><b>10</b> Dhaka, Bangladesh</li>
+        <li><b>11</b> DR Congo (Ebola)</li>
+        <li><b>12</b> Yongbyon, North Korea</li>
+        <li><b>14</b> Bras&iacute;lia, Brazil</li>
+        <li><b>15</b> Odesa, Ukraine</li>
+        <li><b>17</b> Tokyo, Japan</li>
+        <li><b>21</b> Caracas, Venezuela</li>
+        <li><b>24</b> Ouagadougou, Burkina Faso</li>
+        <li><b>29</b> Brisbane, Australia</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="briefs">
+  <div class="sec-head"><h3>MORE FROM THURSDAY &mdash; 16 BRIEFS</h3><span>Washington &middot; Courts &middot; Africa &middot; Sport &middot; Markets</span></div>
+  <div class="brief-cols">
+    <ul>
+      <li><b>19</b>U.S. asks Supreme Court to strip Venezuelan TPS; Friday deadline for ~628,000 people.</li>
+      <li><b>20</b>House Democrats nominate Hakeem Jeffries for speaker, 251&ndash;11; would be first Black speaker.</li>
+      <li><b>21</b>U.S. signs military cooperation pact with Venezuela&rsquo;s interim government in Caracas.</li>
+      <li><b>22</b>Ukrainian drones hit Kaleikino oil station; Russian refining down ~45% since late Oct.</li>
+      <li><b>23</b>Russian gasoline imports hit a record 390,000 tonnes by sea in October.</li>
+      <li><b>24</b>Human Rights Watch: Burkina Faso is targeting critics in exile.</li>
+      <li><b>25</b>NRC: DR Congo Ebola response cannot succeed without a wider humanitarian effort.</li>
+      <li><b>26</b>South Korea&rsquo;s President Lee renews calls for dialogue with Pyongyang.</li>
+    </ul>
+    <ul>
+      <li><b>27</b>South Africa beat Bangladesh by 9 wickets in the 1st Test (RSA 557; BAN 400 &amp; 168).</li>
+      <li><b>28</b>ATP Finals: Alcaraz beats Medvedev 6&ndash;2, 6&ndash;4; Tiafoe and Shelton also win.</li>
+      <li><b>29</b>WBBL: Sydney Thunder Women chase 226 to beat Brisbane Heat by 6 wickets.</li>
+      <li><b>30</b>Wall Street mixed after Nvidia results: Dow &minus;1.1%, S&amp;P 500 &minus;0.2%, Nasdaq +0.4%.</li>
+      <li><b>31</b>Trump says Iran is exploring chemical and biological weapons; U.S. security chief denies it.</li>
+      <li><b>32</b>Israel delays the E1 settlement; a settler kills a woman near Jericho.</li>
+      <li><b>33</b>Justice Dept. warns Rep. Garcia over remarks on Trump probes &mdash; the fourth Democrat.</li>
+      <li><b>34</b>WHO Africa: AI is helping reinforce polio surveillance across the continent.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  <b>Sources:</b> Reuters, AP, AFP, Al Jazeera, UN, WHO, IEA, IAEA, Amnesty, HRW, APEC &mdash; all reporting published on Thursday 19 November 2026. Attributed claims are the claims of the sources named.
+</div>
+
+</body>
+</html>
